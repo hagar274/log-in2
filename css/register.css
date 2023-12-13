@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to left,  rgb(150 50 160), rgb(180 70 180), rgb(210 90 200), rgb(240 110 220),rgb(270 130 240/4),
+     
+    rgb(290 150 260/2.000009),
+
+    rgb(270 130 240),
+    rgb(240 110 220),
+    rgb(210 90 200)
+    , rgb(180 70 180)
+    , rgb(150 50 160));
+    width: 800px;
+    height: 400px;
+}
+
+/* navbar */
+header{
+    text-align: center;
+    border-radius: 80px;
+  background: left;
+  width: 1200px;
+  margin: 3em;
+}
+.Nav a{
+    text-decoration: none;
+    color: rgb(226, 25, 123);
+    background-color: rgb(121, 37, 152);
+    padding: 20PX;
+    font-weight: 600;
+}
+.Nav .log{
+    border-radius: 50%;
+}
+.Nav .reg{
+    border-radius: 50%;
+}
+#active{
+    color: rgb(121, 37, 152);
+    background-color: rgb(226, 25, 123);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    height:1600px;
+    border-radius: 50PX;
+    box-shadow: 0 0 15px 10px rgb(224, 99, 224);
+    background-color: rgb(168, 51, 179);
+    padding: 20px;
+    margin: -95px 390PX;
+    text-align: center;
+    border: 3px solid rgba(51, 49, 49, 0.892);
+}
+.icon{
+    color: rgba(36, 35, 35, 0.892);
+    font-size: 100px;
+    font-weight: bold;
+    margin: 80px auto;
+}
+.test {
+    display: flex;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: left;
+    float: left;
+    margin: 0;
+    gap: 6px;
+    color: beige;
+}
+.form .input-group{
+    width: 100%;
+    padding: 10px;
+    /* border-radius: 15px; */
+    border: 2px solid rgba(51, 49, 49, 0.892);
+}
+.form .input-group:focus{
+    border: 0;
+    outline: 3px solid rgb(223, 44, 220);
+}
+.form .form-check{
+color: rgb(44, 34, 37);
+  float: right;
+  text-align: left;
+}
+.form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -1.25rem;
+}
+.form-check-label {
+    margin-bottom: 0;
+  }
+  label {
+    display: inline-block;
+}
+.form .submit {
+    padding: 10px;
+    background-color: rgb(146, 63, 223);
+    font-size: bold;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px rgb(145, 45, 238);
+    border: 2px solid rgba(213, 95, 226, 0.892);
+    color: rgb(126, 19, 55);
+}
+
